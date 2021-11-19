@@ -15,8 +15,8 @@
 		<testSuiteFile>config/testrun_config.xml</testSuiteFile>
 		<sourceVersion>1.8</sourceVersion>
 		<targetVersion>1.8</targetVersion>
-		<qaf.version>LATEST</qaf.version>
-		<selenium.version>3.141.59</selenium.version>
+		<qaf.version>3.1.0b</qaf.version>
+		<selenium.version>4.0.0</selenium.version>
 		<test.results.dir>test-results</test.results.dir>
 		<run.time>${maven.build.timestamp}</run.time>
 		<lib.dir>${project.basedir}/lib</lib.dir>
@@ -36,7 +36,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>${selenium.version}</version>
+			<version>4.0.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.qmetry</groupId>
